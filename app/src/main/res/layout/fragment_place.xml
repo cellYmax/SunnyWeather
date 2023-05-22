@@ -21,13 +21,13 @@
             android:id="@+id/searchPlaceEdit"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
-            android:background="@drawable/search_bg"
-            android:layout_gravity="center_vertical"
-            android:hint="输入地址" />
+            android:hint="输入地址"
+            android:background="@drawable/search_bg"/>
     </FrameLayout>
 
     <androidx.recyclerview.widget.RecyclerView
